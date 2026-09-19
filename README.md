@@ -62,8 +62,8 @@ The useful product of the investigation is therefore:
 1. a fairly complete list of approaches that **did not work**;
 2. corrected findings after we discovered self-match contamination in early probes;
 3. P-11 / P-92 resource IDs and relevant component names;
-4. source for each diagnostic probe;
-5. raw logs for the useful test runs;
+4. source for each diagnostic probe in the local research archive, with selected probe metadata preserved here;
+5. selected raw logs plus hashes/provenance for larger omitted logs;
 6. an explicit warning about the final unsafe `MEM_IMAGE` experiment;
 7. a suggested next direction that avoids repeating the same memory-scanning approach.
 
@@ -101,14 +101,15 @@ A contributor with deeper Stingray / loader knowledge should preferably attack t
 - [`docs/CURRENT_GOAL.md`](docs/CURRENT_GOAL.md) — exact intended final behavior.
 - [`docs/RESEARCH_FINDINGS.md`](docs/RESEARCH_FINDINGS.md) — confirmed, supported, and hypothesis-level findings.
 - [`docs/PROBE_HISTORY.md`](docs/PROBE_HISTORY.md) — every diagnostic version and what it taught us.
+- [`docs/TECHNICAL_NOTES.md`](docs/TECHNICAL_NOTES.md) — low-level IDs, offsets, historical/current distinctions, and implementation notes.
 - [`docs/COWBOYBINGUS_HANDOFF.md`](docs/COWBOYBINGUS_HANDOFF.md) — condensed technical handoff for CowboyBingus.
 - [`docs/SAFETY.md`](docs/SAFETY.md) — things not to repeat.
 - [`references/KNOWN_IDS.md`](references/KNOWN_IDS.md) — known hashes/resource IDs.
 - [`references/EXTERNAL_SOURCES.md`](references/EXTERNAL_SOURCES.md) — FileDiver, HelldiversData, Bingus Shared Loader references.
 - [`references/FILE_HASHES.md`](references/FILE_HASHES.md) — hashes of local reference files not redistributed here.
-- [`probes/`](probes/) — source for read-only probes v0.1 through v0.10.
-- [`unsafe/v0.11-UNSAFE/`](unsafe/v0.11-UNSAFE/) — final crash-associated probe, retained for forensic reference only.
-- [`logs/`](logs/) — preserved diagnostic logs.
+- [`probes/`](probes/) — selected probe packaging metadata/notes and archive warnings. Full probe behavior/results are documented in `docs/PROBE_HISTORY.md` and `docs/TECHNICAL_NOTES.md`.
+- [`unsafe/v0.11-UNSAFE/`](unsafe/v0.11-UNSAFE/) — forensic notes for the final crash-associated experiment; **do not rerun it as described**.
+- [`logs/`](logs/) — selected preserved diagnostic logs plus hashes/provenance for larger omitted raw logs.
 
 ## Evidence labels
 
