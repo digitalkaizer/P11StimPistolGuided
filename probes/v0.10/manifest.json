@@ -1,0 +1,15 @@
+{
+  "Version": 1,
+  "Guid": "6158b3bf-b6bd-4694-8d05-ab20619e270e",
+  "Name": "P-11 Guided Stim - Helldivers Only (Guidance Component Probe v0.10)",
+  "Description": "Read-only probe that targets the Warrant-style SeekingMissile guidance component directly using speed and PID anchors, with no weapon-record assumptions. Requires Bingus Shared Loader v15+ / API 1.",
+  "Options": [
+    {
+      "Name": "P-11 Guided Stim - Helldivers Only (Guidance Component Probe v0.10)",
+      "Description": "Locates and scores SeekingMissile guidance candidates plus SensorEye-like acquisition patterns. No writes.",
+      "Include": [
+        "Addon"
+      ]
+    }
+  ]
+}
