@@ -1,0 +1,15 @@
+P-11 Guided Stim - Helldivers Only
+revision=direct-projectile-weapon-record-probe-v0.7
+mode=READ_ONLY_DIRECT_PROJECTILE_WEAPON_RECORD_PROBE
+installed; read-only direct ProjectileWeapon record probe armed; readable_private_regions=3673; no Bastion/faction/gameplay writes
+SELF_ALLOC_EXCLUDED=0x7E000000 marker_hit=0x7EC26FA8 page=base=0x7EC26000 size=4038656 state=0x1000 type=0x20000 protect=0x4 alloc=0x7E000000
+DIRECT_RECORD_SCAN_ARMED regions=3672 readable_bytes=3836055552 record_stride=0x180
+WARRANT_CANDIDATE start=0x203465CCDA9 anchor=WARRANT_ZEROING score=8 ptype=0 rpm=[400.000000,600.000000,800.000000] zeroing=[75.000000,150.000000,300.000000] hip=20.000000 slot=0 infinite=0 projectile_entity=0x3400000000000000 fnvel=0.000000 fnproj=0 reasons=ptype,slot,bool,zeroing,hip20 page=base=0x203465CC000 size=16384 state=0x1000 type=0x20000 protect=0x4 alloc=0x20346590000
+WARRANT_CANDIDATE start=0x2034725CDA9 anchor=WARRANT_ZEROING score=8 ptype=0 rpm=[400.000000,600.000000,800.000000] zeroing=[75.000000,150.000000,300.000000] hip=20.000000 slot=0 infinite=0 projectile_entity=0x3400000000000000 fnvel=0.000000 fnproj=0 reasons=ptype,slot,bool,zeroing,hip20 page=base=0x2034725C000 size=16384 state=0x1000 type=0x20000 protect=0x4 alloc=0x20347220000
+WARRANT_CANDIDATE start=0x20348AACDA9 anchor=WARRANT_ZEROING score=8 ptype=0 rpm=[400.000000,600.000000,800.000000] zeroing=[75.000000,150.000000,300.000000] hip=20.000000 slot=0 infinite=0 projectile_entity=0x3400000000000000 fnvel=0.000000 fnproj=0 reasons=ptype,slot,bool,zeroing,hip20 page=base=0x20348AAC000 size=16384 state=0x1000 type=0x20000 protect=0x4 alloc=0x20348A70000
+WARRANT_CANDIDATE start=0x2034998CDA9 anchor=WARRANT_ZEROING score=8 ptype=0 rpm=[400.000000,600.000000,800.000000] zeroing=[75.000000,150.000000,300.000000] hip=20.000000 slot=0 infinite=0 projectile_entity=0x3400000000000000 fnvel=0.000000 fnproj=0 reasons=ptype,slot,bool,zeroing,hip20 page=base=0x2034998C000 size=16384 state=0x1000 type=0x20000 protect=0x4 alloc=0x20349950000
+DIRECT_RECORD_SCAN_COMPLETE p11_candidates=0 warrant_candidates=4 bytes_scanned=3851726848
+BEST_P11 NONE
+BEST_WARRANT score=8 start=0x203465CCDA9 reasons=ptype,slot,bool,zeroing,hip20
+DIRECT_PROJECTILE_WEAPON_RECORDS_NOT_CONFIRMED p11_confirm=false warrant_confirm=false
+DIRECT_RECORD_PROBE_COMPLETE bytes_scanned=3851726848 p11_candidates=0 warrant_candidates=4; NO MEMORY WRITES WERE PERFORMED
