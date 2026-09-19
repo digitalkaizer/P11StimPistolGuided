@@ -1,0 +1,12 @@
+{
+  "name": "P-11 Guided Stim - Helldivers Only",
+  "version": "0.9-direct-weapondata-probe",
+  "module": "mods/digitalkaizer/p11_guided_stim",
+  "guid": "6158b3bf-b6bd-4694-8d05-ab20619e270e",
+  "mode": "READ_ONLY_DIRECT_WEAPONDATA_PROBE",
+  "memory_writes": false,
+  "virtual_protect": false,
+  "faction_changes": false,
+  "bastion_dependency": false,
+  "self_heal_dependency": false
+}
