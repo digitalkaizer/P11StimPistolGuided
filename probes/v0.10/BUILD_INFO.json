@@ -1,0 +1,35 @@
+{
+  "name": "P-11 Guided Stim - Helldivers Only",
+  "version": "0.10-guidance-component-probe",
+  "module": "mods/digitalkaizer/p11_guided_stim",
+  "guid": "6158b3bf-b6bd-4694-8d05-ab20619e270e",
+  "mode": "READ_ONLY_GUIDANCE_COMPONENT_PROBE",
+  "memory_writes": false,
+  "virtual_protect": false,
+  "faction_changes": false,
+  "bastion_dependency": false,
+  "self_heal_dependency": false,
+  "seeking_offsets": {
+    "targeting_mode": "0x00",
+    "time_enable_guidance": "0x0C",
+    "angle_lost_guidance": "0x1C",
+    "max_lifetime": "0x40",
+    "starting_speed": "0x44",
+    "minimum_speed": "0x48",
+    "preferred_speed": "0x4C",
+    "acceleration": "0x50",
+    "max_angle_to_target": "0x54",
+    "min_turn_speed": "0x58",
+    "max_turn_speed": "0x5C",
+    "p_factor": "0x60",
+    "i_factor": "0x64",
+    "d_factor": "0x68",
+    "target_update_interval": "0x6C"
+  },
+  "anchors": [
+    "90.0 / 90.0 / 90.0 speed triplet",
+    "0.01 / 1.0 / 0.0001 PID triplet",
+    "60 / -1 / -1 / 20 / 20 SensorEye-like sequence"
+  ],
+  "confirmation_threshold": 30
+}
