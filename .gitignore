@@ -1,0 +1,6 @@
+*.dll
+*.exe
+*.pdb
+generated_entities*.dl_bin
+*.patch_*
+.DS_Store
