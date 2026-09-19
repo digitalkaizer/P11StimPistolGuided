@@ -1,0 +1,24 @@
+P-11 Guided Stim - Helldivers Only
+revision=resource-map-pair-probe-v0.6
+mode=READ_ONLY_RESOURCE_MAP_PAIR_PROBE
+installed; read-only resource-map pair probe armed; readable_private_regions=3595; no Bastion/faction/gameplay writes
+SELF_ALLOC_EXCLUDED=0x7E000000 marker_hit=0x7EC7CDA8 page=base=0x7EC7C000 size=3686400 state=0x1000 type=0x20000 protect=0x4 alloc=0x7E000000
+RESOURCE_SCAN_ARMED regions=3594 readable_bytes=3883773952 map_entries=436 map_bytes=0x1B40 records=219 stride=0x180
+P11_MAP_ENTRY_HIT addr=0x21711E35348 index=103 pad=0x00000213 alloc=0x21711DE0000
+P11_MAP_ENTRY_HIT addr=0x2172EE47918 index=219 pad=0x00000213 alloc=0x2172EE00000
+P11_MAP_ENTRY_HIT addr=0x21737C976A8 index=3 pad=0x00000000 alloc=0x21737BB0000
+WARRANT_MAP_ENTRY_HIT addr=0x21737C97648 index=3 pad=0x00000000 alloc=0x21737BB0000
+P11_MAP_ENTRY_HIT addr=0x21738BC7890 index=0 pad=0x00000000 alloc=0x21737BB0000
+P11_MAP_ENTRY_HIT addr=0x21738BC78D8 index=261 pad=0x000010F2 alloc=0x21737BB0000
+WARRANT_MAP_ENTRY_HIT addr=0x21738BC78C0 index=0 pad=0x00000000 alloc=0x21737BB0000
+P11_MAP_ENTRY_HIT addr=0x2173C235C68 index=1 pad=0x00000000 alloc=0x21737BB0000
+P11_MAP_ENTRY_HIT addr=0x2174D195300 index=168 pad=0x00000000 alloc=0x2174D190000
+RESOURCE_SCAN_COMPLETE p11_hits=7 warrant_hits=2 bytes_scanned=3899109376
+MAP_PAIR_CANDIDATE p11=0x21737C976A8 idx=3 warrant=0x21737C97648 idx=3 delta=-96 slot_delta=-6 alloc=0x21737BB0000
+MAP_PAIR_CANDIDATE p11=0x21738BC7890 idx=0 warrant=0x21738BC78C0 idx=0 delta=48 slot_delta=3 alloc=0x21737BB0000
+MAP_PAIR_ANALYSIS_COMPLETE pair_candidates=2 best_score=4
+BEST_MAP_CANDIDATE score=4 map_start=0x21737C97638 data_base=0x21737C99178 p11_map_slot=7 warrant_map_slot=1 p11_record_index=3 warrant_record_index=3 p11_record=0x21737C995F8 warrant_record=0x21737C995F8
+BEST_P11 score=3 projectile_type=308 rpm_default=0.000000 zeroing=[0.000000,0.000000,0.000000] projectile_entity=0x0000000000000000 reasons=ptype,entity0
+BEST_WARRANT score=1 projectile_type=308 rpm_default=0.000000 zeroing=[0.000000,0.000000,0.000000] projectile_entity=0x0000000000000000 reasons=ptype
+PROJECTILE_WEAPON_MAP_NOT_CONFIRMED best candidate did not meet conservative score threshold
+RESOURCE_MAP_PAIR_COMPLETE bytes_scanned=3899109376 p11_hits=7 warrant_hits=2 pair_candidates=2; NO MEMORY WRITES WERE PERFORMED
