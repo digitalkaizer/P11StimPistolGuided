@@ -1,0 +1,46 @@
+P-11 Guided Stim - Helldivers Only
+revision=self-excluding-datalib-probe-v0.5
+mode=READ_ONLY_SELF_EXCLUDING_DATALIB_PROBE
+installed; read-only self-excluding DataLibrary probe armed; readable_private_regions=3071 allocations=2546; no Bastion/faction/gameplay writes
+SELF_ALLOC_EXCLUDED=0x7E000000 marker_hit=0x7ECF1FC8 page=base=0x7ECF1000 size=3207168 state=0x1000 type=0x20000 protect=0x4 alloc=0x7E000000
+CANDIDATE_ALLOC base=0x1F2D9600000 readable_bytes=184025088 regions=24
+CANDIDATE_ALLOC base=0x1F2B3970000 readable_bytes=178556928 regions=1
+CANDIDATE_ALLOC base=0x1F2BF390000 readable_bytes=134217728 regions=1
+CANDIDATE_ALLOC base=0x1F3FF310000 readable_bytes=134217728 regions=1
+CANDIDATE_ALLOC base=0x1F2C7390000 readable_bytes=134217728 regions=1
+CANDIDATE_ALLOC base=0x1F2CF390000 readable_bytes=134217728 regions=1
+CANDIDATE_ALLOC base=0x1F435320000 readable_bytes=128663552 regions=1
+CANDIDATE_ALLOC base=0x1F3C5FC0000 readable_bytes=89128960 regions=1
+CANDIDATE_ALLOC base=0x1F430980000 readable_bytes=77152256 regions=1
+CANDIDATE_ALLOC base=0x1F3E1200000 readable_bytes=62914560 regions=1
+CANDIDATE_ALLOC base=0x1F3E4E00000 readable_bytes=62914560 regions=1
+CANDIDATE_ALLOC base=0x1F42D430000 readable_bytes=44830720 regions=1
+CANDIDATE_ALLOC base=0x1F3BF650000 readable_bytes=44826624 regions=1
+CANDIDATE_ALLOC base=0x1F3C3520000 readable_bytes=44695552 regions=1
+CANDIDATE_ALLOC base=0x1F3B1730000 readable_bytes=41943040 regions=1
+CANDIDATE_ALLOC base=0x1F3B3FA0000 readable_bytes=36438016 regions=1
+CANDIDATE_ALLOC base=0x1F407310000 readable_bytes=35319808 regions=1
+CANDIDATE_ALLOC base=0x1F0A7A10000 readable_bytes=33566720 regions=1
+CANDIDATE_ALLOC base=0x1F44CC90000 readable_bytes=33558528 regions=1
+CANDIDATE_ALLOC base=0x1F3CD390000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3D1390000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F2ABA00000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3BD650000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3FD310000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3D8ED0000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F2AFA00000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3B8970000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3EA4C0000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3CF390000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3EFE60000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3D4920000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F40EF10000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3B62C0000 readable_bytes=33554432 regions=1
+CANDIDATE_ALLOC base=0x1F3DF200000 readable_bytes=33554432 regions=1
+STRUCTURAL_SCAN_ARMED regions=57 pw_type_hash=0x45171B68 expected_payload=0x163C0 map=436 records=219 stride=0x180
+PW_ITEM_NOT_FOUND in >=32MiB candidate allocations; no write assumptions made
+SEEKING_MISSILE_COMPONENT_DATA_HEADER_NOT_FOUND
+SENSOR_EYE_COMPONENT_DATA_HEADER_NOT_FOUND
+WEAPON_DATA_COMPONENT_DATA_HEADER_NOT_FOUND
+RESULT ProjectileWeaponComponentData not structurally resolved; remain read-only and revise parser assumptions
+SELF_EXCLUDING_MAP_COMPLETE bytes_scanned=8584249344; NO MEMORY WRITES WERE PERFORMED
